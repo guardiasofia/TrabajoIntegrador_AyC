@@ -1,17 +1,6 @@
 # 🗺️ Optimización de Circuitos Turísticos en Concordia
 
-Este repositorio contiene el desarrollo de un trabajo práctico para la asignatura **Algoritmos y Complejidad** de la **Licenciatura en Sistemas** (Facultad de Ciencias de la Administración). El proyecto aborda el problema de optimización de rutas turísticas en la ciudad de **Concordia, Entre Ríos**, aplicando técnicas de investigación de operaciones y heurísticas para la resolución del **Problema del Agente Viajero con Ventanas de Tiempo (TSP-TW)**.
-
-## 📋 Tabla de Contenidos
-
-- [Descripción del Problema](#descripción-del-problema)
-- [Metodología](#metodología)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Resultados](#resultados)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Cómo Ejecutar](#cómo-ejecutar)
-- [Contribuciones](#contribuciones)
-- [Autores](#autores)
+Este repositorio contiene el desarrollo de un trabajo práctico para la asignatura **Algoritmos y Complejidad** de la **Licenciatura en Sistemas** (Facultad de Ciencias de la Administración). El proyecto aborda el problema de optimización de rutas turísticas en la ciudad de **Concordia, Entre Ríos**, aplicando técnicas de investigación de operaciones y heurísticas para la resolución del **Problema Viajero con Ventanas de Tiempo (TSP-TW)**.
 
 ## 📝 Descripción del Problema
 
@@ -53,42 +42,6 @@ Se compararon tres enfoques para resolver el problema:
 | Búsqueda Tabú    | 410                | -3.7%               |
 
 La **Búsqueda Tabú** logró la mejor solución, reduciendo el tiempo total del circuito en un 3.7% en comparación con la solución constructiva inicial.
-
-### Mapa de la Ruta Óptima
-
-![Circuito Turístico Óptimo](ruta_optima.png)
-
-### Gráficos Comparativos
-
-![Comparación de Heurísticas](comparativa_metricas.png)
-
-## 📂 Estructura del Proyecto
-
-```
-.
-├── INTEGRADOR_AyC (3).ipynb  # Notebook principal con todo el código.
-├── README.md                 # Este archivo.
-└── assets/                   # (Opcional) Carpeta para imágenes.
-    ├── ruta_optima.png
-    └── comparativa_metricas.png
-```
-
-## 🧑‍💻 Cómo Ejecutar
-
-1.  **Clonar el repositorio**:
-    ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
-    cd tu-repositorio
-    ```
-
-2.  **Instalar las dependencias**:
-    El notebook incluye una celda inicial para instalar las librerías necesarias. Si prefieres hacerlo manualmente:
-    ```bash
-    pip install osmnx networkx matplotlib numpy pandas
-    ```
-
-3.  **Ejecutar el Notebook**:
-    Abre el archivo `INTEGRADOR_AyC.ipynb` en un entorno Jupyter (como Google Colab o Jupyter Notebook) y ejecuta las celdas en orden.
 
 ## 🤝 Contribuciones
 
