@@ -56,4 +56,4 @@ Las contribuciones son bienvenidas. Si encuentras un error o tienes una sugerenc
 
 ---
 
-*Proyecto desarrollado para la asignatura Algoritmos y Complejidad - Licenciatura en Sistemas - FCAyF - 2025.*
+*Proyecto desarrollado para la asignatura Algoritmos y Complejidad - Licenciatura en Sistemas - UNER - FCAD - 2026.*
